@@ -1,0 +1,44 @@
+# Archivo .gitignore
+# Lista de archivos y directorios que Git debe ignorar
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Entorno virtual de Python
+venv/
+
+# Archivos de configuración local
+.env
+
+# Archivos generados por el sistema de migraciones de Flask
+migrations/
+
+# Archivos de registro
+logs/
+
+# Archivos de caché y compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+__pycache__/
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+
+# Archivos de respaldo y temporales
+*~
+*.bak
+*.swp
+
+# Archivos de registro
+*.log
+
+# Directorio de carga de archivos
+/uploads/
