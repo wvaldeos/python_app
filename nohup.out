@@ -1,0 +1,7 @@
+[2023-07-23 06:12:46 +0000] [46776] [INFO] Starting gunicorn 21.2.0
+[2023-07-23 06:12:46 +0000] [46776] [INFO] Listening at: http://127.0.0.1:8000 (46776)
+[2023-07-23 06:12:46 +0000] [46776] [INFO] Using worker: sync
+[2023-07-23 06:12:46 +0000] [46777] [INFO] Booting worker with pid: 46777
+[2023-07-23 06:12:46 +0000] [46778] [INFO] Booting worker with pid: 46778
+[2023-07-23 06:12:46 +0000] [46779] [INFO] Booting worker with pid: 46779
+[2023-07-23 06:12:46 +0000] [46780] [INFO] Booting worker with pid: 46780

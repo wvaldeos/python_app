@@ -4,7 +4,7 @@ from app import app
 import os
 
 def extract_text(filename):
-    pytesseract.pytesseract.tesseract_cmd = r'/usr/local/bin/tesseract'  # ajusta esto a la ruta de tu ejecutable de Tesseract
+    pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'  # ajusta esto a la ruta de tu ejecutable de Tesseract
     pdf_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     images = convert_from_path(pdf_path)
 
